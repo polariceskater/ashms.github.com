@@ -12,6 +12,7 @@
 
 body {
   line-height: 1.6;
+  color: #444;
 }
 
 /*
@@ -62,8 +63,6 @@ body > .navbar i { margin-right: 2px; }
   .masthead .site-title { font-size: 28px; margin: 0; line-height: 1.2; font-weight: normal; }
   .masthead .site-desc { font-size: 22px; margin: 0 0 25px; line-height: 1.2; font-style: italic; font-weight: normal;}
 
-.about-page .page-title, .team-page .page-title { border-top: 1px solid #ddd; color: #207ABA; padding-top: 25px; }
-
 /* ==========================================================================
    Index
    ========================================================================== */
@@ -84,7 +83,7 @@ body > .navbar i { margin-right: 2px; }
 
   .elastislide-prev, .elastislide-next {z-index: 100;}
 
-.index-page .section-label { margin-bottom: 15px; font-size: 14px; letter-spacing: 2px; font-weight: bold; color: #ccc; text-transform: uppercase; border-bottom: 2px solid #eee; display: inline-block; }
+.index-page .section-label, .about-page .section-label{ margin-bottom: 15px; font-size: 14px; letter-spacing: 2px; font-weight: bold; color: #aaa; text-transform: uppercase; border-bottom: 2px solid #eee; display: inline-block; }
 
 .info { padding: 40px 0; color: #555; font-size: 14px; background: #f7f7f7;}
   .info h3 { color: #555; font-size: 16px; line-height: 1.6; margin-bottom: 10px; }
@@ -95,10 +94,25 @@ body > .navbar i { margin-right: 2px; }
 
 
 /* ==========================================================================
+   About page
+   ========================================================================== */
+
+.page-title { color: #444; padding: 30px 0; border-top: 1px solid #eee; margin-top: -1px; text-align: center; }
+  .page-title h1 { font-size: 32px; margin: 0; }
+  .page-title h2 { font-size: 24px; margin: 0; }
+
+.about-page .info { font-size: 24px; color: #fff; text-align: center; background: #444; }
+
+.about-page .join { padding-top: 40px; }
+  .join h3 { color: #555; font-size: 18px; line-height: 1.6; }
+  #map_canvas { margin-top: 30px; height: 500px!important; }
+
+
+/* ==========================================================================
    Team Page
    ========================================================================== */
 
-.about-page .intro, .team-page .intro { padding: 13px 0; margin-bottom: 25px; }
+.team-page .intro { padding: 13px 0; margin-bottom: 25px; }
 
 .member-level-label { margin-top: 0; margin-bottom: 25px;}
 

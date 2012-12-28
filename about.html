@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="css/elastislide.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body class='index-page'>
+    <body class='about-page' onload='initialize()'>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -75,8 +75,19 @@
                 <div class='row'>
                     <div class="span6 offset3">
                         <img src="img/logo.jpg" alt="University of Michigan" height="60" width="60">
-                        <h1 class='site-title'>University of Michigan Concrete Canoe</h1>
-                        <h2 class='site-desc'>The Leaders and the Best</h2>
+                        <p class='site-title'>University of Michigan Concrete Canoe</p>
+                        <p class='site-desc'>The Leaders and the Best</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class='page-title'>
+            <div class='container'>
+                <div class='row'>
+                    <div class="span12">
+                        <h1>About MCCT</h1>
+                        <h2>Learn more about our club</h2>
                     </div>
                 </div>
             </div>
@@ -85,11 +96,36 @@
         <div class='info'>
             <div class='container'>
                 <div class='row'>
-                    <div class="span6 offset3">
-                        <p>We are a collective of engineers and problem solvers working together to make a concrete canoe. </p>
+                    <div class="span8 offset2">
+                        <p>We are a collective of dedicated students / engineers / problem solvers at the University of Michigan working to fabricate a concrete canoe for the annual ASCE concrete canoe competition. </p>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class='join' id='join'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='span12'>
+                        <h3 class='section-label'>Want to join the team?</h3>
+                    </div>
+                    <div class="span4">
+                        <h3>Meetings</h3>
+                        <p>Attend one of the meetings! The team meets every Tuesday at 7:00 pm. Come check us out!</p>
+                    </div>
+                    <div class="span4">
+                        <h3>Location</h3>
+                        <p>The meetings take place at the conference room of G.G. Brown Laboratories. Easiest way to find it is to enter the building from its northmost entrance, where Hayward meets Beal. </p>
+                    </div>
+                    <div class="span4">
+                        <h3>Questions</h3>
+                        <p>If you have any question, contact our team captain. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="map_canvas" style="width:100%; height:100%"></div>
+
         </div>
 
         <div class='footer'>
@@ -146,6 +182,26 @@
         <script src="js/jquery.elastislide.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBU1FaV-2mh3m3HhuslSLrHru_dw-ZrcSE&sensor=false"></script>
+        <script type="text/javascript">
+            function initialize() {
+                var myLatlng = new google.maps.LatLng(42.2940, -83.7132);
+                var mapOptions = {
+                    zoom: 16,
+                    center: myLatlng,
+                    scrollwheel: false,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+                var marker = new google.maps.Marker({
+                    position: myLatlng,
+                    map: map,
+                    title:"Hello World!"
+                });
+            }
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
