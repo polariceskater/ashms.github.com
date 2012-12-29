@@ -124,6 +124,19 @@ body > .navbar i { margin-right: 2px; }
     .member-name { font-size: 20px; font-weight: bold;}
     .member-bio { font-size: 14px; padding: 0 15px; }
 
+
+/* ==========================================================================
+   Archive Page
+   ========================================================================== */
+
+.archive-page {}
+
+.canoe { padding: 30px 0; border-top: 1px solid #eee; }
+  .canoe-year, .canoe-title, .canoe-paper { margin: 0; }
+  .canoe-paper { line-height: 32px; }
+
+
+
 /* ==========================================================================
    Footer
    ========================================================================== */
