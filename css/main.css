@@ -137,7 +137,7 @@ body > .navbar i { margin-right: 2px; }
    ========================================================================== */
 
 .masthead { text-align: center; }
-  .masthead .logo { text-align: center; }
+  .masthead .logo { text-align: center; margin: 0; }
   .masthead .span6 { padding-top: 20px; border-bottom: 4px solid #fdd931; }
   .masthead .site-title { font-size: 28px; margin: 0; line-height: 1.2; font-weight: normal; }
   .masthead .site-desc { font-size: 22px; margin: 0 0 25px; line-height: 1.2; font-style: italic; font-weight: normal; }
