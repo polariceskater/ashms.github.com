@@ -43,6 +43,7 @@ body {
 .type-alt { font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; }
 
 a { -webkit-transition: all 0.4s; -moz-transition: all 0.4s; -o-transition: all 0.4s; transition: all 0.4s; }
+  .section a { font-weight: bold; }
 a:hover { text-decoration: none; }
 
 /* buttons */
