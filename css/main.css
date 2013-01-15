@@ -108,7 +108,7 @@ a:hover { text-decoration: none; }
   .section .section-label { color: #ccc; margin-bottom: 15px; font-size: 14px; line-height: 1.6; letter-spacing: 0.3em; font-weight: bold; text-transform: uppercase; border-bottom: 2px solid #eee; display: inline-block; }
   .section .module-title { font-size: 18px; line-height: 1.6;}
 
-.section-light { color: #555; background: #f7f7f7; }
+.section-light { color: #555; background: #f5f5f5; }
 .section-dark { color: #fff; background: #2E3133; }
 
 /* page-title */
@@ -163,8 +163,8 @@ body > .navbar i { margin-right: 2px; }
     #gallery2 li { float: left; overflow: hidden; }
       #gallery2 li.mid { width: 33.333334%;}
       #gallery2 li.lft, #gallery2 li.rht { width: 33.333333%;}
-        #gallery2 li img.img-sm { width: 33.333333%; float: left; }
-        #gallery2 li img.img-md { width: 66.666667%; float: left; }
+        #gallery2 li img.img-sm { width: 33.333333333333%; float: left; }
+        #gallery2 li img.img-md { width: 66.666633333367%; float: right; }
 
 .sponsors { text-align: center;  }
 
