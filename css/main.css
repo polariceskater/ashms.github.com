@@ -214,6 +214,9 @@ body > .navbar i { margin-right: 2px; }
 .donate-link { color: #fff; background: #ff6140; border-color: #ff6e40; }
   .donate-link:hover { color: #eee; background: #ff8b40; }
 
+.sponsor-page .materials { list-style: none; margin: 20px 0 0; border-top: 1px solid #ddd; }
+  .sponsor-page .materials li { border-bottom: 1px solid #ddd; padding: 10px 0; }
+
 /* ==========================================================================
    Footer
    ========================================================================== */
