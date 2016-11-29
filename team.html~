@@ -91,10 +91,10 @@
 
                     <div class='member span3'>
                         <div class='member-thumb'>
-                            <img src='img/members/2015-16/Laura.jpg' alt='Laura Zeiler'>
+                            <img src='img/members/2015-16/Connie.jpg' alt='Connie Jiang'>
                         </div>
                         <div class='member-title'>
-                            <p class='member-name'>Laura Zeiler</p>
+                            <p class='member-name'>Connie Jiang</p>
                             <p class='member-position'>Team Captain</p>
                             <p class='member-link'>
                                 <a href="mailto:design.concretecanoe@umich.edu"><i class="icon-envelope"></i></a>
@@ -102,17 +102,16 @@
                             </p>
                         </div>
                         <div class='member-bio collapse' id='connie-bio'>
-                            <p>Laura is a senior studying Industrial and Operations Engineering. Prior to joining her sophomore year, she never anticipated being so excited about concrete. Outside of MCCT, Laura is also involved in Central Student Government and IM Sports. As captain, she is eager to see what innovation and progress this hard working team can accomplish this year. 
- </p>
+                            <p>Connie is a senior double majoring in Chemical and Material Science Engineering. Connie loves how the team combines her affinity for water and canoes with the creative engineering required to make concrete float. She's been active since sophomore year, serving as the treasurer last year. Outside of concrete canoe, Connie's also involved with Habitat for Humanity. She likes to sing karaoke and break out into dance randomly in public. As Captain, Connie has high hopes for this year and the team. </p>
                         </div>
                     </div>
 
                     <div class='member span3'>
                         <div class='member-thumb'>
-                            <img src=''img/members/2015-16/Eric.jpg' alt='Eric O'Neill'>
+                            <img src='img/members/tommytang.jpg' alt='Tommy Tang'>
                         </div>
                         <div class='member-title'>
-                            <p class='member-name'>Eric O'Neill</p>
+                            <p class='member-name'>Tommy Tang</p>
                             <p class='member-position'>Concrete Design</p>
                             <p class='member-link'>
                                 <a href="mailto:design.concretecanoe@umich.edu"><i class="icon-envelope"></i></a>
@@ -120,14 +119,13 @@
                             </p>
                         </div>
                         <div class='member-bio collapse' id='tommytang-bio'>
-                            <p>Eric is from Farmington Hills, Michigan and is a Junior studying Chemical Engineering with a Minor in Computer Science. In his role as the 2016-2017 Mix Design Lead he plans to strengthen the concrete mix while also strengthening the team. This is his third year on the team and last year he held the position of Paddling Lead. Outside of Concrete Canoe, Eric enjoys playing IM sports, hanging out with his friends, and watching Michigan Football. 
- </p>
+                            <p>Tommy is a senior studying Industrial and Operational Engineering from Brooklyn, New York. Tommy joined the team his freshman year and is excited to lead the concrete design for this year’s canoe. In his free time he enjoys basketball, ultimate frisbee, and other sports. </p>
                         </div>
                     </div>
 
                     <div class='member span3'>
                         <div class='member-thumb'>
-                            <img src='img/members/oliviamitchinson.jpg' alt='Jason Bian'>
+                            <img src='img/members/oliviamitchinson.jpg' alt='Olivia Mitchinson'>
                         </div>
                         <div class='member-title'>
                             <p class='member-name'>Olivia Mitchinson</p>
@@ -138,19 +136,17 @@
                             </p>
                         </div>
                         <div class='member-bio collapse' id='oliviamitchinson-bio'>
-                            <p>Jason is a sophomore studying Industrial Engineering. Jason joined the team his freshman year and is excited to lead the hull design team. In his free time he enjoys basketball, ultimate frisbee, and other sports.
-
-  </p>
+                            <p>Olivia is a sophomore this year returning for her second year on the team. She is originally from Grand Blanc, Michigan. She loves being on a small team full of very friendly people. In her free time she likes to listen to music, collect plants, and watch Netflix.  </p>
                         </div>
                     </div>
 
 
                     <div class='member span3'>
                         <div class='member-thumb'>
-                            <img src='img/members/oliviamitchinson.jpg' alt='Olivia Mitchinson'>
+                            <img src='img/members/Me.jpg' alt='Mackenzie Horton'>
                         </div>
                         <div class='member-title'>
-                            <p class='member-name'>Olivia Mitchinson</p>
+                            <p class='member-name'>Mackenzie Horton</p>
                             <p class='member-position'>Public Relations</p>
                             <p class='member-link'>
                                 <a href="mailto:mcct@umich.edu"><i class="icon-envelope"></i></a>
@@ -165,10 +161,10 @@
 
                     <div class='member span3'>
                         <div class='member-thumb'>
-                            <img src='img/members/2015-16/Laura.jpg' alt='Mackenzie Horton'>
+                            <img src='img/members/2015-16/Laura.jpg' alt='Laura Zeiler'>
                         </div>
                         <div class='member-title'>
-                            <p class='member-name'>Mackenzie Horton</p>
+                            <p class='member-name'>Laura Zeiler</p>
                             <p class='member-position'>Secretary</p>
                             <p class='member-link'>
                                 <a href="mailto:kachou@umich.edu"><i class="icon-envelope"></i></a>
@@ -198,7 +194,7 @@
                             </p>
                         </div>
                         <div class='member-bio collapse' id='mehul-bio'>
-                            <p> Mehul hails from the distant town of Saline, MI. He is a junior majoring in Civil Engineering. He enjoys playing the violin, dancing, and watching excessive amounts of the Food Network. He is excited for his second year on the Concrete Canoe Team and is excited to continue being a part of a close knit group of hard working students. </p>
+                            <p> Mehul hails from the distant town of Saline, MI. He is a sophomore majoring in Civil Engineering. He enjoys playing the violin, dancing, and watching excessive amounts of the Food Network. He is excited for his second year on the Concrete Canoe Team and is excited to continue being a part of a close knit group of hard working students. </p>
                         </div>
                     </div>
 
@@ -222,10 +218,10 @@
 
                     <div class='member span3'>
                         <div class='member-thumb'>
-                            <img src='img/members/profile.jpg' alt='Liz'>
+                            <img src='img/members/profile.jpg' alt='Christopher Giddley'>
                         </div>
                         <div class='member-title'>
-                            <p class='member-name'>Liz</p>
+                            <p class='member-name'>Christopher Giddley</p>
                             <p class='member-position'>Quality Control</p>
                             <p class='member-link'>
                                 <a href="mailto:webmaster.concretecanoe@umich.edu"><i class="icon-envelope"></i></a>
@@ -240,10 +236,10 @@
 
                     <div class='member span3'>
                         <div class='member-thumb'>
-                            <img src='img/members/2015-16/Eric.jpg' alt='Micheal K'>
+                            <img src='img/members/2015-16/Eric.jpg' alt='Eric O'Neill'>
                         </div>
                         <div class='member-title'>
-                            <p class='member-name'>Micheal K</p>
+                            <p class='member-name'>Eric O'Neill</p>
                             <p class='member-position'>Paddle Practice Lead</p>
                             <p class='member-link'>
                                 <a href="mailto:webmaster.concretecanoe@umich.edu"><i class="icon-envelope"></i></a>
