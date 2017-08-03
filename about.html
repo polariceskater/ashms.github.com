@@ -110,7 +110,6 @@
                     <div class="module span4">
                         <h3 class='module-title'>Location</h3>
                         <p>The Monday meetings take place in 2147 G.G. Brown Laboratories. Easiest way to find it is to enter the building from its northmost entrance, where Hayward meets Beal. The Saturday meetings are in the Wilson Center, right by the Wave Field.</p>
-                        <p><a class='button-small' href='https://maps.google.com/maps?daddr=42.2940,+-83.7132&hl=en&sll=42.293582,-83.714031&sspn=0.001764,0.004128&mra=ls&t=m&z=19'>Get Directions.</a></p>
                     </div>
                     <div class="module span4">
                         <h3 class='module-title'>Questions</h3>
@@ -170,44 +169,5 @@
                 </div>
             </div>
         </div>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBU1FaV-2mh3m3HhuslSLrHru_dw-ZrcSE&sensor=false"></script>
-        <script type="text/javascript">
-            function initialize() {
-                var myLatlng = new google.maps.LatLng(42.2940, -83.7132);
-                var mapOptions = {
-                    zoom: 16,
-                    center: myLatlng,
-                    scrollwheel: false,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                }
-                var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
-
-                var marker = new google.maps.Marker({
-                    position: myLatlng,
-                    map: map,
-                    title:"G.G. Brown"
-                });
-            }
-        </script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-33583514-2']);
-            _gaq.push(['_trackPageview']);
-
-            (function() {
-              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
-        </script>
     </body>
 </html>
